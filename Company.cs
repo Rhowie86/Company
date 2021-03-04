@@ -30,7 +30,7 @@ public class Company
     {
         Console.WriteLine();
         Console.WriteLine($"{Name}");
-        Console.WriteLine($"Currently Employees");
+        Console.WriteLine($"Currently Employs");
             foreach (Employee person in currentEmployees)
             {
         Console.WriteLine($"{person.FirstName} {person.LastName} as the {person.Title}" );
